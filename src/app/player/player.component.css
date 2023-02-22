@@ -1,0 +1,40 @@
+/* Structure */
+.example-container {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+    min-height: 400px;
+    margin-top: 2rem;
+    margin: auto;
+}
+
+.example-table-container {
+    position: relative;
+    height: 83%;
+    overflow: auto;
+}
+
+table {
+    width: 100%;
+}
+
+.example-loading-shade {
+    background: rgba(0, 0, 0, 0.15);
+    z-index: 1;
+}
+
+.example-rate-limit-reached {
+    max-width: 360px;
+    text-align: center;
+}
+
+/* Column Widths */
+.mat-column-number,
+.mat-column-state {
+    max-width: 64px;
+}
+
+.mat-column-created {
+    max-width: 124px;
+}
