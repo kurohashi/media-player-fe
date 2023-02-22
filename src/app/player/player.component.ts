@@ -94,4 +94,8 @@ export class PlayerComponent implements OnInit {
     this.getSongs();
   }
 
+  isRating(i: string) {
+    return i == 'rating';
+  }
+
 }

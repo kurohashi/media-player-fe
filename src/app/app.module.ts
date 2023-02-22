@@ -12,6 +12,7 @@ import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { HttpClientModule } from '@angular/common/http';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatTableModule,
     MatSortModule,
     MatFormFieldModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
